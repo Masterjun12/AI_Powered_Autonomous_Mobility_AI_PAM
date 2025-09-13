@@ -1,0 +1,21 @@
+# mavinit.scr
+# MAVProxy 시작 시 자동으로 실행될 명령들
+
+param set GPS_HOME_LAT 37.5665
+param set GPS_HOME_LON 126.9780
+param set GPS_HOME_ALT 0
+param set ARMING_CHECK 0
+param set FS_GCS_ENABLE 0
+param set FS_THR_ENABLE 0
+param set FS_BATT_ENABLE 0
+param set FS_CRASH_CHECK 0
+param set FENCE_ENABLE 0
+param set LOG_DISARMED 1
+param set LOG_BITMASK 65535
+param set LOG_REPLAY 1
+
+# 모드를 STABILIZE로 설정 (선택 사항, 기본값)
+mode STABILIZE
+
+# MAVProxy 콘솔에 메시지 출력
+echo Initializing SITL parameters...

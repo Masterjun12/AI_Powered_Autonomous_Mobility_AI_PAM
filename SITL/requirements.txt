@@ -1,0 +1,8 @@
+dronekit
+dronekit-sitl
+pymavlink
+google-generativeai
+future
+wxPython
+MAVProxy
+wexpect

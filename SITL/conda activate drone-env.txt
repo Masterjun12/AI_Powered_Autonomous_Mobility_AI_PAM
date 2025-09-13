@@ -1,0 +1,70 @@
+conda activate drone-env
+
+cd C:\Users\maste\Desktop\SITL
+
+pip install -r requirements.txt
+
+dronekit-sitl copter --home=37.5665,126.9780,0,180
+
+python "D:\anaconda\envs\drone-env\Scripts\mavproxy.py" --master tcp:127.0.0.1:5760 --out 127.0.0.1:14550 --out 127.0.0.1:14551 --console --map 
+ 
+python main.py
+
+쉼표로 테스크를 구분함
+명령어 : 드론 연결, 시동 걸어, 대각선으로 200미터 이동
+
+순서 드론킷 실행 (T1) > mav 콘솔 실행 (T2) > 미션플래너 실행후 포트맞춰 연결 > main.py 실행 후 명령어 입력 > 모니터링
+
+
+mav 파라메터
+
+param set ARMING_CHECK 0
+param set FS_GCS_ENABLE 0
+param set FS_THR_ENABLE 0
+param set FS_BATT_ENABLE 0
+param set FS_CRASH_CHECK 0
+param set FENCE_ENABLE 0
+param set LOG_DISARMED 1
+param set LOG_BITMASK 65535
+param set LOG_REPLAY 1
+
+
+2번째 방법 아두파일럿 사용
+
+깃허브에서 다운로드 해서 수동으로 SITL 을 맥이는 방식
+git clone https://github.com/ArduPilot/ardupilot.git
+cd ardupilot
+git submodule update --init --recursive
+Tools/autotest/sim_vehicle.py -v ArduCopter --console --map
+
+
+# 가상환경 활성화
+conda activate drone-env
+
+# SITL 실행
+cd C:\Users\maste\Desktop\SITL\ardupilot
+python Tools\autotest\sim_vehicle.py -v ArduCopter --console --map --sim_vehicle_sh_compatible
+
+# 가상환경 활성화
+conda activate drone-env
+
+# MAVProxy 실행
+cd C:\Users\maste\Desktop\SITL
+python "D:\anaconda\envs\drone-env\Scripts\mavproxy.py" --master tcp:127.0.0.1:5760 --out 127.0.0.1:14550 --out 127.0.0.1:14551 --console --map
+
+# 가상환경 활성화
+conda activate drone-env
+
+# main.py 실행
+cd C:\Users\maste\Desktop\SITL
+python main.py
+
+
+
+[SITL TCP:5760]
+        |
+        v
+[MAVProxy] --out 14550 --> [main.py (DroneKit)]
+        |
+        --out 14551 --> [Mission Planner]
+

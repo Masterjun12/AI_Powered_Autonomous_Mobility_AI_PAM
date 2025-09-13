@@ -1,0 +1,592 @@
+[
+    {
+        "instruction": "이륙해",
+        "input": "",
+        "output": "takeoff"
+    },
+    {
+        "instruction": "드론 띄워",
+        "input": "",
+        "output": "takeoff"
+    },
+    {
+        "instruction": "날아올라",
+        "input": "",
+        "output": "takeoff"
+    },
+    {
+        "instruction": "착륙해",
+        "input": "",
+        "output": "land"
+    },
+    {
+        "instruction": "드론 내려",
+        "input": "",
+        "output": "land"
+    },
+    {
+        "instruction": "땅으로",
+        "input": "",
+        "output": "land"
+    },
+    {
+        "instruction": "영상 켜",
+        "input": "",
+        "output": "streamon"
+    },
+    {
+        "instruction": "스트리밍 시작",
+        "input": "",
+        "output": "streamon"
+    },
+    {
+        "instruction": "카메라 켜",
+        "input": "",
+        "output": "streamon"
+    },
+    {
+        "instruction": "영상  꺼",
+        "input": "",
+        "output": "streamoff"
+    },
+    {
+        "instruction": "스트리밍 중지",
+        "input": "",
+        "output": "streamoff"
+    },
+    {
+        "instruction": "카메라 꺼",
+        "input": "",
+        "output": "streamoff"
+    },
+    {
+        "instruction": "비상 정지",
+        "input": "",
+        "output": "emergency"
+    },
+    {
+        "instruction": "모터 꺼",
+        "input": "",
+        "output": "emergency"
+    },
+    {
+        "instruction": "긴급 상황",
+        "input": "",
+        "output": "emergency"
+    },
+    {
+        "instruction": "올라가 20센티미터",
+        "input": "",
+        "output": "up 20"
+    },
+    {
+        "instruction": "올라가 40센티미터",
+        "input": "",
+        "output": "up 40"
+    },
+    {
+        "instruction": "올라가 60센티미터",
+        "input": "",
+        "output": "up 60"
+    },
+    {
+        "instruction": "올라가 80센티미터",
+        "input": "",
+        "output": "up 80"
+    },
+    {
+        "instruction": "올라가 100센티미터",
+        "input": "",
+        "output": "up 100"
+    },
+    {
+        "instruction": "위로 20센티미터",
+        "input": "",
+        "output": "up 20"
+    },
+    {
+        "instruction": "위로 40센티미터",
+        "input": "",
+        "output": "up 40"
+    },
+    {
+        "instruction": "위로 60센티미터",
+        "input": "",
+        "output": "up 60"
+    },
+    {
+        "instruction": "위로 80센티미터",
+        "input": "",
+        "output": "up 80"
+    },
+    {
+        "instruction": "위로 100센티미터",
+        "input": "",
+        "output": "up 100"
+    },
+    {
+        "instruction": "상승해 20센티미터",
+        "input": "",
+        "output": "up 20"
+    },
+    {
+        "instruction": "상승해 40센티미터",
+        "input": "",
+        "output": "up 40"
+    },
+    {
+        "instruction": "상승해 60센티미터",
+        "input": "",
+        "output": "up 60"
+    },
+    {
+        "instruction": "상승해 80센티미터",
+        "input": "",
+        "output": "up 80"
+    },
+    {
+        "instruction": "상승해 100센티미터",
+        "input": "",
+        "output": "up 100"
+    },
+    {
+        "instruction": "내려가 20센티미터",
+        "input": "",
+        "output": "down 20"
+    },
+    {
+        "instruction": "내려가 40센티미터",
+        "input": "",
+        "output": "down 40"
+    },
+    {
+        "instruction": "내려가 60센티미터",
+        "input": "",
+        "output": "down 60"
+    },
+    {
+        "instruction": "내려가 80센티미터",
+        "input": "",
+        "output": "down 80"
+    },
+    {
+        "instruction": "내려가 100센티미터",
+        "input": "",
+        "output": "down 100"
+    },
+    {
+        "instruction": "아래로 20센티미터",
+        "input": "",
+        "output": "down 20"
+    },
+    {
+        "instruction": "아래로 40센티미터",
+        "input": "",
+        "output": "down 40"
+    },
+    {
+        "instruction": "아래로 60센티미터",
+        "input": "",
+        "output": "down 60"
+    },
+    {
+        "instruction": "아래로 80센티미터",
+        "input": "",
+        "output": "down 80"
+    },
+    {
+        "instruction": "아래로 100센티미터",
+        "input": "",
+        "output": "down 100"
+    },
+    {
+        "instruction": "하강해 20센티미터",
+        "input": "",
+        "output": "down 20"
+    },
+    {
+        "instruction": "하강해 40센티미터",
+        "input": "",
+        "output": "down 40"
+    },
+    {
+        "instruction": "하강해 60센티미터",
+        "input": "",
+        "output": "down 60"
+    },
+    {
+        "instruction": "하강해 80센티미터",
+        "input": "",
+        "output": "down 80"
+    },
+    {
+        "instruction": "하강해 100센티미터",
+        "input": "",
+        "output": "down 100"
+    },
+    {
+        "instruction": "왼쪽으로 20센티미터",
+        "input": "",
+        "output": "left 20"
+    },
+    {
+        "instruction": "왼쪽으로 40센티미터",
+        "input": "",
+        "output": "left 40"
+    },
+    {
+        "instruction": "왼쪽으로 60센티미터",
+        "input": "",
+        "output": "left 60"
+    },
+    {
+        "instruction": "왼쪽으로 80센티미터",
+        "input": "",
+        "output": "left 80"
+    },
+    {
+        "instruction": "왼쪽으로 100센티미터",
+        "input": "",
+        "output": "left 100"
+    },
+    {
+        "instruction": "좌측으로 20센티미터",
+        "input": "",
+        "output": "left 20"
+    },
+    {
+        "instruction": "좌측으로 40센티미터",
+        "input": "",
+        "output": "left 40"
+    },
+    {
+        "instruction": "좌측으로 60센티미터",
+        "input": "",
+        "output": "left 60"
+    },
+    {
+        "instruction": "좌측으로 80센티미터",
+        "input": "",
+        "output": "left 80"
+    },
+    {
+        "instruction": "좌측으로 100센티미터",
+        "input": "",
+        "output": "left 100"
+    },
+    {
+        "instruction": "오른쪽으로 20센티미터",
+        "input": "",
+        "output": "right 20"
+    },
+    {
+        "instruction": "오른쪽으로 40센티미터",
+        "input": "",
+        "output": "right 40"
+    },
+    {
+        "instruction": "오른쪽으로 60센티미터",
+        "input": "",
+        "output": "right 60"
+    },
+    {
+        "instruction": "오른쪽으로 80센티미터",
+        "input": "",
+        "output": "right 80"
+    },
+    {
+        "instruction": "오른쪽으로 100센티미터",
+        "input": "",
+        "output": "right 100"
+    },
+    {
+        "instruction": "우측으로 20센티미터",
+        "input": "",
+        "output": "right 20"
+    },
+    {
+        "instruction": "우측으로 40센티미터",
+        "input": "",
+        "output": "right 40"
+    },
+    {
+        "instruction": "우측으로 60센티미터",
+        "input": "",
+        "output": "right 60"
+    },
+    {
+        "instruction": "우측으로 80센티미터",
+        "input": "",
+        "output": "right 80"
+    },
+    {
+        "instruction": "우측으로 100센티미터",
+        "input": "",
+        "output": "right 100"
+    },
+    {
+        "instruction": "앞으로 20센티미터",
+        "input": "",
+        "output": "forward 20"
+    },
+    {
+        "instruction": "앞으로 40센티미터",
+        "input": "",
+        "output": "forward 40"
+    },
+    {
+        "instruction": "앞으로 60센티미터",
+        "input": "",
+        "output": "forward 60"
+    },
+    {
+        "instruction": "앞으로 80센티미터",
+        "input": "",
+        "output": "forward 80"
+    },
+    {
+        "instruction": "앞으로 100센티미터",
+        "input": "",
+        "output": "forward 100"
+    },
+    {
+        "instruction": "전진 20센티미터",
+        "input": "",
+        "output": "forward 20"
+    },
+    {
+        "instruction": "전진 40센티미터",
+        "input": "",
+        "output": "forward 40"
+    },
+    {
+        "instruction": "전진 60센티미터",
+        "input": "",
+        "output": "forward 60"
+    },
+    {
+        "instruction": "전진 80센티미터",
+        "input": "",
+        "output": "forward 80"
+    },
+    {
+        "instruction": "전진 100센티미터",
+        "input": "",
+        "output": "forward 100"
+    },
+    {
+        "instruction": "뒤로 20센티미터",
+        "input": "",
+        "output": "back 20"
+    },
+    {
+        "instruction": "뒤로 40센티미터",
+        "input": "",
+        "output": "back 40"
+    },
+    {
+        "instruction": "뒤로 60센티미터",
+        "input": "",
+        "output": "back 60"
+    },
+    {
+        "instruction": "뒤로 80센티미터",
+        "input": "",
+        "output": "back 80"
+    },
+    {
+        "instruction": "뒤로 100센티미터",
+        "input": "",
+        "output": "back 100"
+    },
+    {
+        "instruction": "후진 20센티미터",
+        "input": "",
+        "output": "back 20"
+    },
+    {
+        "instruction": "후진 40센티미터",
+        "input": "",
+        "output": "back 40"
+    },
+    {
+        "instruction": "후진 60센티미터",
+        "input": "",
+        "output": "back 60"
+    },
+    {
+        "instruction": "후진 80센티미터",
+        "input": "",
+        "output": "back 80"
+    },
+    {
+        "instruction": "후진 100센티미터",
+        "input": "",
+        "output": "back 100"
+    },
+    {
+        "instruction": "시계 방향으로 돌아 20센티미터",
+        "input": "",
+        "output": "cw 20"
+    },
+    {
+        "instruction": "시계 방향으로 돌아 40센티미터",
+        "input": "",
+        "output": "cw 40"
+    },
+    {
+        "instruction": "시계 방향으로 돌아 60센티미터",
+        "input": "",
+        "output": "cw 60"
+    },
+    {
+        "instruction": "시계 방향으로 돌아 80센티미터",
+        "input": "",
+        "output": "cw 80"
+    },
+    {
+        "instruction": "시계 방향으로 돌아 100센티미터",
+        "input": "",
+        "output": "cw 100"
+    },
+    {
+        "instruction": "오른쪽으로 회전 20센티미터",
+        "input": "",
+        "output": "cw 20"
+    },
+    {
+        "instruction": "오른쪽으로 회전 40센티미터",
+        "input": "",
+        "output": "cw 40"
+    },
+    {
+        "instruction": "오른쪽으로 회전 60센티미터",
+        "input": "",
+        "output": "cw 60"
+    },
+    {
+        "instruction": "오른쪽으로 회전 80센티미터",
+        "input": "",
+        "output": "cw 80"
+    },
+    {
+        "instruction": "오른쪽으로 회전 100센티미터",
+        "input": "",
+        "output": "cw 100"
+    },
+    {
+        "instruction": "반시계 방향으로 돌아 20센티미터",
+        "input": "",
+        "output": "ccw 20"
+    },
+    {
+        "instruction": "반시계 방향으로 돌아 40센티미터",
+        "input": "",
+        "output": "ccw 40"
+    },
+    {
+        "instruction": "반시계 방향으로 돌아 60센티미터",
+        "input": "",
+        "output": "ccw 60"
+    },
+    {
+        "instruction": "반시계 방향으로 돌아 80센티미터",
+        "input": "",
+        "output": "ccw 80"
+    },
+    {
+        "instruction": "반시계 방향으로 돌아 100센티미터",
+        "input": "",
+        "output": "ccw 100"
+    },
+    {
+        "instruction": "왼쪽으로 회전 20센티미터",
+        "input": "",
+        "output": "ccw 20"
+    },
+    {
+        "instruction": "왼쪽으로 회전 40센티미터",
+        "input": "",
+        "output": "ccw 40"
+    },
+    {
+        "instruction": "왼쪽으로 회전 60센티미터",
+        "input": "",
+        "output": "ccw 60"
+    },
+    {
+        "instruction": "왼쪽으로 회전 80센티미터",
+        "input": "",
+        "output": "ccw 80"
+    },
+    {
+        "instruction": "왼쪽으로 회전 100센티미터",
+        "input": "",
+        "output": "ccw 100"
+    },
+    {
+        "instruction": "왼쪽으로 공중제비",
+        "input": "",
+        "output": "flip l"
+    },
+    {
+        "instruction": "오른쪽으로 공중제비",
+        "input": "",
+        "output": "flip r"
+    },
+    {
+        "instruction": "앞으로 공중제비",
+        "input": "",
+        "output": "flip f"
+    },
+    {
+        "instruction": "뒤으로 공중제비",
+        "input": "",
+        "output": "flip b"
+    },
+    {
+        "instruction": "왼쪽으로 플립",
+        "input": "",
+        "output": "flip l"
+    },
+    {
+        "instruction": "오른쪽으로 플립",
+        "input": "",
+        "output": "flip r"
+    },
+    {
+        "instruction": "앞으로 플립",
+        "input": "",
+        "output": "flip f"
+    },
+    {
+        "instruction": "뒤으로 플립",
+        "input": "",
+        "output": "flip b"
+    },
+    {
+        "instruction": "정지",
+        "input": "",
+        "output": "stop"
+    },
+    {
+        "instruction": "멈춰",
+        "input": "",
+        "output": "stop"
+    },
+    {
+        "instruction": "그 자리에 있어",
+        "input": "",
+        "output": "stop"
+    },
+    {
+        "instruction": "x 50, y 60, z 70 위치로 속도 80으로 이동해",
+        "input": "",
+        "output": "go 50 60 70 80"
+    },
+    {
+        "instruction": "x1 50, y1 60, z1 70 에서 x2 100, y2 90, z2 80 으로 속도 40으로 커브 비행해",
+        "input": "",
+        "output": "curve 50 60 70 100 90 80 40"
+    }
+]
