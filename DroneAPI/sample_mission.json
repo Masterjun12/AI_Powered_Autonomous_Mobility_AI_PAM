@@ -1,0 +1,24 @@
+[
+  [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+]

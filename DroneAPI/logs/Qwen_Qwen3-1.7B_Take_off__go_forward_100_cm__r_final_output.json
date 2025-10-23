@@ -1,0 +1,26 @@
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.5226905345916748,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}

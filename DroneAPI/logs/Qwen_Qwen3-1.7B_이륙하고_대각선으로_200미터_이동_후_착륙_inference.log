@@ -1,0 +1,31 @@
+
+--- DEBUG MODEL OUTPUT (2025-10-01 13:50:13) ---
+[TASK] 이륙하고 대각선으로 200미터 이동 후 착륙
+<think>
+</think>
+
+[{"command": "takeoff", "parameters": {}}, {"command": "forward", "parameters": {"distance": 200}}, {"command": "land", "parameters": {}}]
+[INFO] 추론 시간: 0.39 sec
+
+--- FINAL OUTPUT (2025-10-01 13:50:13) ---
+{
+  "task": "이륙하고 대각선으로 200미터 이동 후 착륙",
+  "inference_time_sec": 0.39308619499206543,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 200
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.39 sec

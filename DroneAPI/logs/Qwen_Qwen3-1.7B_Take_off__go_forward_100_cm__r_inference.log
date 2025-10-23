@@ -1,0 +1,294 @@
+
+--- DEBUG MODEL OUTPUT (2025-10-01 13:51:51) ---
+[TASK] Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.
+<think>
+</think>
+
+[
+  {"command": "takeoff", "parameters": {}},
+  {"command": "forward", "parameters": {"distance": 100}},
+  {"command": "cw", "parameters": {"degree": 90}},
+  {"command": "land", "parameters": {}}
+]
+[INFO] 추론 시간: 0.53 sec
+
+--- FINAL OUTPUT (2025-10-01 13:51:51) ---
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.5253324508666992,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.53 sec
+
+--- DEBUG MODEL OUTPUT (2025-10-01 14:00:51) ---
+[TASK] Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.
+<think>
+</think>
+
+[
+  {"command": "takeoff", "parameters": {}},
+  {"command": "forward", "parameters": {"distance": 100}},
+  {"command": "cw", "parameters": {"degree": 90}},
+  {"command": "land", "parameters": {}}
+]
+[INFO] 추론 시간: 0.56 sec
+
+--- FINAL OUTPUT (2025-10-01 14:00:51) ---
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.5608294010162354,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.56 sec
+
+--- DEBUG MODEL OUTPUT (2025-10-01 14:05:56) ---
+[TASK] Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.
+<think>
+</think>
+
+[
+  {"command": "takeoff", "parameters": {}},
+  {"command": "forward", "parameters": {"distance": 100}},
+  {"command": "cw", "parameters": {"degree": 90}},
+  {"command": "land", "parameters": {}}
+]
+[INFO] 추론 시간: 0.52 sec
+
+--- FINAL OUTPUT (2025-10-01 14:05:56) ---
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.5235419273376465,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.52 sec
+
+--- DEBUG MODEL OUTPUT (2025-10-01 14:20:07) ---
+[TASK] Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.
+<think>
+</think>
+
+[
+  {"command": "takeoff", "parameters": {}},
+  {"command": "forward", "parameters": {"distance": 100}},
+  {"command": "cw", "parameters": {"degree": 90}},
+  {"command": "land", "parameters": {}}
+]
+[INFO] 추론 시간: 0.54 sec
+
+--- FINAL OUTPUT (2025-10-01 14:20:07) ---
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.538780689239502,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.54 sec
+
+--- DEBUG MODEL OUTPUT (2025-10-01 14:25:48) ---
+[TASK] Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.
+<think>
+</think>
+
+[
+  {"command": "takeoff", "parameters": {}},
+  {"command": "forward", "parameters": {"distance": 100}},
+  {"command": "cw", "parameters": {"degree": 90}},
+  {"command": "land", "parameters": {}}
+]
+[INFO] 추론 시간: 0.57 sec
+
+--- FINAL OUTPUT (2025-10-01 14:25:48) ---
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.571453332901001,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.57 sec
+
+--- DEBUG MODEL OUTPUT (2025-10-01 14:29:56) ---
+[TASK] Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.
+<think>
+</think>
+
+[
+  {"command": "takeoff", "parameters": {}},
+  {"command": "forward", "parameters": {"distance": 100}},
+  {"command": "cw", "parameters": {"degree": 90}},
+  {"command": "land", "parameters": {}}
+]
+[INFO] 추론 시간: 0.62 sec
+
+--- FINAL OUTPUT (2025-10-01 14:29:56) ---
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.6187841892242432,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.62 sec
+
+--- DEBUG MODEL OUTPUT (2025-10-01 14:41:17) ---
+[TASK] Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.
+<think>
+</think>
+
+[
+  {"command": "takeoff", "parameters": {}},
+  {"command": "forward", "parameters": {"distance": 100}},
+  {"command": "cw", "parameters": {"degree": 90}},
+  {"command": "land", "parameters": {}}
+]
+[INFO] 추론 시간: 0.52 sec
+
+--- FINAL OUTPUT (2025-10-01 14:41:17) ---
+{
+  "task": "Take off, go forward 100 cm, rotate clockwise 90 degrees, and then land.",
+  "inference_time_sec": 0.5226905345916748,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 100
+      }
+    },
+    {
+      "command": "cw",
+      "parameters": {
+        "degree": 90
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
+[INFO] 추론 시간: 0.52 sec

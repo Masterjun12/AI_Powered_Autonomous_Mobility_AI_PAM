@@ -1,0 +1,20 @@
+{
+  "task": "이륙하고 대각선으로 200미터 이동 후 착륙",
+  "inference_time_sec": 0.39308619499206543,
+  "commands": [
+    {
+      "command": "takeoff",
+      "parameters": {}
+    },
+    {
+      "command": "forward",
+      "parameters": {
+        "distance": 200
+      }
+    },
+    {
+      "command": "land",
+      "parameters": {}
+    }
+  ]
+}
